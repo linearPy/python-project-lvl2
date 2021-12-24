@@ -19,7 +19,7 @@ test:
 lint:
 		poetry run flake8 gendiff
 
-check: selfcheck lint
+check: selfcheck lint test
 
 build: check
 		poetry build

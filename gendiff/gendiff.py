@@ -20,4 +20,4 @@ def generate_diff(first_path, second_path):
                 result.append(f'  - {key}: {data1[key]}')
                 result.append(f'  + {key}: {data2[key]}')
 
-    return '{\n' + '\n'.join(result) + '\n}'
+    return '{\n' + '\n'.join(result) + '\n}\n'
